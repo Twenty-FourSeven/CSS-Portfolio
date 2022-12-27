@@ -4,7 +4,7 @@ A portfolio of work showcasing my skills and talents.
 
 ---
 
-## My Skills and Talents
+## A Dynamic and Responsive Webpage
 
 - Portfolio shows developer's name, a recent photo or avatar, links to sections about them, their work, and how to contact them.
 
@@ -20,7 +20,7 @@ A portfolio of work showcasing my skills and talents.
 
 ## Mockup
 
-URL to the Horiseon webpage: https://twenty-fourseven.github.io/portfolio/
+URL to the portfolio webpage: https://twenty-fourseven.github.io/portfolio/
 
 ## Usage
 
