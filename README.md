@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Portfolio
 
 A portfolio of work showcasing my skills and talents.
@@ -33,7 +32,3 @@ Below you will find screenshots of selected sections of code from the HTML and C
 ## Credits
 
 NTS: No code was provided to start this challenge with. XXXXXXXXXX MUST EDIT XXXXXXXXXXX
-=======
-# portfolio
-A portfolio of work showcasing my skills and talents
->>>>>>> 85d955248186efd4070450e5409bf63c0e10465d
