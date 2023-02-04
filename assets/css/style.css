@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-/* header and start nav bar*/
+/* header nav bar config */
 header {
   display: flex;
   padding: 40px 35px;
@@ -26,8 +26,7 @@ header h1 {
 header a {
   text-decoration: none;
   color: rgb(255, 255, 255);
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header nav {
@@ -46,7 +45,7 @@ header nav ul {
 
 header nav ul li a {
   padding: 10px 15px;
-  font-weight: lighter;
+  font-weight: bold;
   font-size: 20px;
 }
 /* end nav bar config */
@@ -66,8 +65,8 @@ header nav ul li a {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  font-size: 30px;
-  color: #494b52;
+  font-size: 31px;
+  color: rgb(94, 22, 63);
   text-transform: uppercase;
 }
 
@@ -79,11 +78,11 @@ header nav ul li a {
 }
 
 .contents {
-  margin: 25px 20px;
-  padding: 10px 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin: 25px 20px;
+  padding: 10px 0px;
   align-items: stretch;
   justify-content: space-between;
 }
@@ -94,7 +93,7 @@ header nav ul li a {
   padding-right: 15px;
   border-right: 4px solid rgb(255, 255, 255);
   font-size: 4vw;
-  line-height: 1.1;
+  line-height: 1.2;
 }
 
 .contents > div {
@@ -103,4 +102,95 @@ header nav ul li a {
 
 .contents p {
   margin-bottom: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(250, 250, 250);
+  background-color: rgba(250, 250, 250);
+  line-height: 1.5;
+}
+
+/* config grid container columns, 1fr spacing */
+.grid-container {
+  display: grid;
+  column-gap: 10px;
+  row-gap: 10px;
+  grid-auto-flow: dense;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: minmax(150px, 1fr);
+  background-color: rgb(46, 47, 48);
+}
+/* grid items colors padding borders */
+.grid-item {
+  display: flex;
+  align-items: flex-end;
+  border: 4px solid rgba(84, 105, 208);
+  grid-column: span 3;
+  background-color: rgb(30, 24, 29);
+  color: rgba(14, 169, 143, 1);
+  min-height: 150px;
+   padding: 0 0 20px 0;
+  text-decoration: none;
+  background-blend-mode: differencet;
+  background-size: 150%;
+  transition: all 0.5s;
+  font-size: 0.9rem;
+}
+
+/* color for hover animation */
+.grid-item:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.grid-item:first-child {
+  grid-column: span 6;
+  grid-row: span 2;
+}
+
+/* contact section grid layout */
+.contents address {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+/* config inline display, colors padding */
+.contents address a {
+  display: inline-block;
+  color: rgba(255, 255, 255);
+  padding: 5px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-style: normal;
+  background-image: linear-gradient(
+    250deg,
+    rgb(4, 43, 77) 0%,
+    rgb(38, 176, 235) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: bottom;
+  transition: all 0.35s ease-in;
+  margin: 0 0.2rem 0.1rem;
+}
+
+/* hover animation config */
+.contents address a:hover {
+  background-size: 100% 80%;
+  color: rgb(56, 165, 238);
+}
+
+.page-content {
+  background-color: rgb(46, 47, 48);
+}
+
+.page-content h2,
+p {
+  color: rgba(255, 255, 255);
 }
