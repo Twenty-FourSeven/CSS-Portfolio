@@ -1,10 +1,11 @@
-# Portfolio
+# Thomas James - Portfolio
 
-A portfolio of work showcasing my skills and talents.
 
 ---
 
-## A Dynamic and Responsive Webpage
+## Description
+
+A Portfolio Page that Showcases my Web Development Work.
 
 - Portfolio shows developer's name, a recent photo or avatar, links to sections about them, their work, and how to contact them.
 
@@ -18,17 +19,27 @@ A portfolio of work showcasing my skills and talents.
 
 - Resizing of the page or viewing the site on various screens and devices reveals a responsive layout that adapts to the site visitor's viewport.
 
-## Mockup
+## Link to the Live Webpage
 
 URL to the portfolio webpage: https://twenty-fourseven.github.io/portfolio/
 
+
+## Authors
+
+Created by Thomas James.
+GitHub: https://github.com/Twenty-FourSeven
+
 ## Usage
 
-Below you will find screenshots of selected sections of code from the HTML and CSS files for this project. As well as screenshots of the webpage. The rendered website should match the screenshots.
-![HTML](assets/images/README_images/html.png) XXXXXXXXXX MUST EDIT XXXXXXXXXXX
-![HTML](assets/images/README_images/css.png) XXXXXXXXXX MUST EDIT XXXXXXXXXXX
-![HTML](assets/images/README_images/Webpage.png) XXXXXXXXXX MUST EDIT XXXXXXXXXXX
+The aim of this website is to showcase Thomas James's web development projects. It may be used to acess and view Thomas's web development projects, learn more about Thomas and to contact him.
+
+![Screenshot of Full Webpage](assets/images/Portfolio-Image.png)
+
 
 ## Credits
 
-NTS: No code was provided to start this challenge with. XXXXXXXXXX MUST EDIT XXXXXXXXXXX
+Created by Thomas James
+
+## License
+
+Please refer to the LICENSE listed in the repository.
