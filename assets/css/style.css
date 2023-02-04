@@ -61,3 +61,12 @@ header nav ul li a {
 .profile-pic {
   border-radius: 50%;
 }
+
+.hero-text {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  font-size: 30px;
+  color: #494b52;
+  text-transform: uppercase;
+}
