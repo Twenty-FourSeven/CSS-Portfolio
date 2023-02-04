@@ -5,3 +5,11 @@
 }
 
 /* header and start nav bar*/
+header {
+  display: flex;
+  padding: 40px 35px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #069bfe;
+}
