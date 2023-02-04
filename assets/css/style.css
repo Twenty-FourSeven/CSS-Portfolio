@@ -50,3 +50,20 @@ header nav ul li a {
   font-size: 20px;
 }
 /* end nav bar config */
+
+/* hero image */
+.hero {
+  width: 200px;
+  background-image: url("../images/hero.png");
+  height: 200px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-top: auto; 
+  margin-bottom: 90px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  position: relative; 
+  text-align: center;
+  margin: 20px auto;
+}
