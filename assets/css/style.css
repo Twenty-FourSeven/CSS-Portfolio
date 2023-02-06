@@ -131,7 +131,8 @@ body {
   border: 4px solid rgba(84, 105, 208);
   grid-column: span 3;
   background-color: rgb(30, 24, 29);
-  color: rgba(14, 169, 143, 1);
+  color: rgb(119, 41, 178);
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
   min-height: 150px;
    padding: 0 0 20px 0;
   text-decoration: none;
@@ -151,7 +152,7 @@ body {
   grid-row: span 2;
 }
 
-/* contact section grid layout */
+/* footer section grid layout */
 .contents address {
   display: flex;
   flex-wrap: wrap;
@@ -204,7 +205,7 @@ p {
   background-image: url("../images/2.png");
 }
 
-.coffee-app {
+.trails-app {
   background-image: url("../images/3.png");
 }
 
@@ -212,3 +213,85 @@ p {
   background-image: url("../images/4.png");
 }
 
+.mileage-app {
+  background-image: url("../images/5.png");
+}
+
+/* mobile responsive */
+/* media query for smaller desktop screens and smaller */
+@media screen and (max-width: 980px) {
+  header {
+    padding: 0 0 10px 0;
+    justify-content: center;
+    text-align: center;
+  }
+
+  header h1 {
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 10vw;
+  }
+
+  header nav {
+    justify-content: center;
+  }
+
+  .hero-text {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .page-section > h2,
+  .page-section > div {
+    flex: 0 0 100%;
+  }
+
+  .page-section > h2 {
+    border-right: none;
+    border-bottom: 5px solid rgba(114, 169, 143, 1);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 8vw;
+  }
+}
+
+/* media query for tablets and smaller */
+@media screen and (max-width: 768px) {
+  .grid-item,
+  .grid-item:first-child {
+    grid-column: 1 / -1;
+  }
+
+  .grid-container {
+    grid-auto-rows: minmax(200px, 1fr);
+  }
+
+  .hero-banner {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .contents address {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* media query for mobile phones and smaller */
+@media screen and (max-width: 575px) {
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 10px;
+
+  }
+  .contents address {
+    margin-top 10px;
+  }
+
+  
+}
