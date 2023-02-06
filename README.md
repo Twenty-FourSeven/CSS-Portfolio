@@ -12,7 +12,7 @@
 
 ## Link to the Live Webpage
 
-https://twenty-fourseven.github.io/Twenty-FourSeven-portfolio/
+https://twenty-fourseven.github.io/ThomasJames-Portfolio/
 
 ## Installation
 
